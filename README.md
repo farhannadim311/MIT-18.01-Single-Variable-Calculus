@@ -24,6 +24,7 @@ This repository contains my handwritten solutions to the problem sets assigned i
 | File | Description |
 |------|-------------|
 | `Problem_Set_1.pdf` | Scanned solutions to Problem Set 1 |
+| `Problem_Set_2.pdf` | Scanned solutions to Problem Set 2 |
 
 ---
 
@@ -46,6 +47,40 @@ This repository contains my handwritten solutions to the problem sets assigned i
 5. **Rate of Change** — Average and instantaneous drain rate from a leaking water cooler.
 6. **Limit Computations** — Various limit evaluations from Simmons §2.5.
 7. **Product Rule Generalization** — Deriving and proving by induction the derivative of a product of *n* functions.
+
+---
+
+## 🧮 Problem Set 2 — Topics Covered
+
+### Part I — Exercises
+
+#### 2A (issued before Exam 1)
+| Lecture | Topic | Sections |
+|---------|-------|----------|
+| Lecture 5 | Implicit differentiation; inverse functions & their derivatives | §3.5, Notes G §5, §9.5 |
+| Lecture 6 | Exponentials and logarithms — definition, algebra, applications, derivatives | Notes X, §8.2–8.4 |
+| Lecture 7 | Logarithmic differentiation; hyperbolic functions | §9.7 |
+
+#### 2B (issued after Exam 1)
+| Lecture | Topic | Sections |
+|---------|-------|----------|
+| Lecture 9 | Linear and quadratic approximations | Notes A |
+| Lecture 10 | Curve-sketching | §4.1, 4.2 |
+| Lecture 11 | Maximum-minimum problems | §4.3, 4.4 |
+
+### Part II — Problems
+
+#### From 2A
+1. **Graphing Even/Odd Decompositions** — Graph the even and odd functions from PS1 and sketch their derivatives qualitatively.
+2. **Chain & Product Rule Computations** — Compute $(d/dx)\tan^3(x^4)$ and $(d/dy)(\sin^2 y \cos^2 y)$ two ways (product rule vs. double-angle).
+3. **Higher-Order Product Rule** — Show $y'' = u''v + 2u'v' + uv''$ for $y = uv$, then find $y'''$.
+4. **Inverse Cosine Derivative** — Derive $(d/dx)\cos^{-1}x$ via implicit differentiation; explain why $(d/dx)\cos^{-1}x + (d/dx)\sin^{-1}x = 0$.
+5. **Exponentials & Logarithms** — Simmons §8.2 and §8.4 problems on exponential and logarithmic functions.
+6. **Logarithmic Differentiation** — Re-derive the product rule for $n$ functions $D(u_1 u_2 \cdots u_n)$ using logarithmic differentiation.
+
+#### From 2B
+1. **Golf Balls & Spherical Caps** — Area of spherical caps; linear and quadratic approximations for small $r/R$; numerical accuracy of approximations for a dimpled golf ball.
+2. **Curve Sketching** — Graph $f(x) = 1/(1+x^2)$ along with $f'(x)$ and $f''(x)$; label critical points and inflection points.
 
 ---
 
