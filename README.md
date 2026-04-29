@@ -16,6 +16,10 @@ This repository contains my handwritten solutions to the problem sets assigned i
 - Differentiation formulas — product and quotient rules
 - Chain rule and higher-order derivatives
 - Implicit differentiation and inverse functions
+- Maximum-minimum problems and optimization
+- Related rates
+- Newton's method
+- Mean-value theorem and inequalities
 
 ---
 
@@ -25,6 +29,7 @@ This repository contains my handwritten solutions to the problem sets assigned i
 |------|-------------|
 | `Problem_Set_1.pdf` | Scanned solutions to Problem Set 1 |
 | `Problem_Set_2.pdf` | Scanned solutions to Problem Set 2 |
+| `Problem_Set_3.pdf` | Scanned solutions to Problem Set 3 |
 
 ---
 
@@ -81,6 +86,26 @@ This repository contains my handwritten solutions to the problem sets assigned i
 #### From 2B
 1. **Golf Balls & Spherical Caps** — Area of spherical caps; linear and quadratic approximations for small $r/R$; numerical accuracy of approximations for a dimpled golf ball.
 2. **Curve Sketching** — Graph $f(x) = 1/(1+x^2)$ along with $f'(x)$ and $f''(x)$; label critical points and inflection points.
+
+---
+
+## 🧮 Problem Set 3 — Topics Covered
+
+### Part I — Exercises
+| Lecture | Topic | Sections |
+|---------|-------|----------|
+| Lecture 11 | Maximum-minimum problems | §4.3, 4.4 |
+| Lecture 12 | Related rate problems | §4.5 |
+| Lecture 13 | Newton's method | §4.6 (§4.7 optional) |
+| Lecture 14 | Mean-value theorem; inequalities | §2.6 |
+
+### Part II — Problems
+1. **Optimization** — Ladder distance problem (§4.3/28) and a max-min word problem (§4.4/28).
+2. **Hypocycloid Tangent Lines** — Show that every tangent line to $x^{2/3} + y^{2/3} = 1$ in the first quadrant has length 1 using implicit differentiation.
+3. **Sensitivity of Measurement, Revisited** — Implicit differentiation of $L^2 + 20{,}000^2 = h^2$ to find $dL/dh$; linear approximation vs. exact error; locating yourself on planet Quirk with satellite readings; expressing $dL/dh$ via line-of-sight angle.
+4. **Parabolic Mirror Sensitivity** — Finding $\tan\theta$ and $d\theta/da$ for a parabolic mirror $y = -1/4 + x^2$; estimating star location from angular measurement accuracy.
+5. **Newton's Method** — Computing $9^{1/3}$ to 6 significant figures; analyzing convergence behavior graphically; quadratic approximation via $9 = 8(1+1/8)$.
+6. **(Extra Credit) Hypocycloid Derivation** — Deriving $X^{2/3} + Y^{2/3} = 1$ from the sweeping-out property of a sliding unit ladder using intersection limits and implicit differentiation.
 
 ---
 
