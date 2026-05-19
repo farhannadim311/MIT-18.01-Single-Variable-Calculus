@@ -20,6 +20,10 @@ This repository contains my handwritten solutions to the problem sets assigned i
 - Related rates
 - Newton's method
 - Mean-value theorem and inequalities
+- Differentials and antiderivatives
+- Differential equations and separating variables
+- Definite integrals and Riemann sums
+- First fundamental theorem of calculus
 
 ---
 
@@ -30,6 +34,7 @@ This repository contains my handwritten solutions to the problem sets assigned i
 | `Problem_Set_1.pdf` | Scanned solutions to Problem Set 1 |
 | `Problem_Set_2.pdf` | Scanned solutions to Problem Set 2 |
 | `Problem_Set_3.pdf` | Scanned solutions to Problem Set 3 |
+| `Problem_Set_4.pdf` | Scanned solutions to Problem Set 4 |
 
 ---
 
@@ -106,6 +111,27 @@ This repository contains my handwritten solutions to the problem sets assigned i
 4. **Parabolic Mirror Sensitivity** — Finding $\tan\theta$ and $d\theta/da$ for a parabolic mirror $y = -1/4 + x^2$; estimating star location from angular measurement accuracy.
 5. **Newton's Method** — Computing $9^{1/3}$ to 6 significant figures; analyzing convergence behavior graphically; quadratic approximation via $9 = 8(1+1/8)$.
 6. **(Extra Credit) Hypocycloid Derivation** — Deriving $X^{2/3} + Y^{2/3} = 1$ from the sweeping-out property of a sliding unit ladder using intersection limits and implicit differentiation.
+
+---
+
+## 🧮 Problem Set 4 — Topics Covered
+
+### Part I — Exercises
+| Lecture | Topic | Sections |
+|---------|-------|----------|
+| Lecture 14 | Mean-value theorem; inequalities | §2.6, Notes MVT |
+| Lecture 15 | Differentials and antiderivatives | §5.2, 5.3 |
+| Lecture 16 | Differential equations; separating variables | §5.4, 8.5 |
+| Lecture 18 | Definite integral; summation notation | §6.3–6.5 |
+| Lecture 19 | First fundamental theorem; properties of integrals | §6.6, 6.7 |
+
+### Part II — Problems
+1. **Mean-Value Theorem & Logarithmic Inequalities** — Use the mean-value property to show that $f(0) = 0$ and $f'(x) \geq 0$ implies $f(x) \geq 0$; deduce $\ln(1+x) \leq x$ for $x \geq 0$; prove successive bounds $\ln(1+x) \geq x - x^2/2$ and $\ln(1+x) \leq x - x^2/2 + x^3/3$; formulate a general conjecture; extend the inequality to $-1 < x \leq 0$.
+2. **Antiderivatives & Integration Constants** — Simmons §5.3/68; verify both $\int \tan x \sec^2 x\,dx = \tfrac{1}{2}\tan^2 x$ and $\int \tan x \sec^2 x\,dx = \tfrac{1}{2}\sec^2 x$ are correct and explain the discrepancy.
+3. **Differential Equations** — Separable ODEs from Simmons §8.6/5 and §8.6/6.
+4. **Separating Variables** — Supplementary exercises 3F-5abc on differential equations with separated variables.
+5. **Riemann Sums** — Calculate $\int_0^1 e^x\,dx$ using lower Riemann sums; sum a geometric series for a closed-form expression; evaluate $\lim_{n\to\infty} n(e^{1/n} - 1)$ via linear approximation.
+6. **(Extra Credit) Hypocycloid via Differential Equations** — Derive the curve whose tangent-line segment in the first quadrant has fixed length $L$; compute $L^2$ in terms of $(x_0, y_0, m_0)$; formulate the ODE for $f$; differentiate and simplify to the form $(\cdot)(xy' - y)y'' = 0$; verify $x^{2/3} + y^{2/3} = L^{2/3}$ is a solution.
 
 ---
 
